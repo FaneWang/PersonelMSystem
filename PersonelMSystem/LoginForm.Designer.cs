@@ -63,7 +63,7 @@
             this.textBox1.Location = new System.Drawing.Point(161, 166);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 25);
-            this.textBox1.TabIndex = 2;
+            this.textBox1.TabIndex = 1;
             // 
             // label2
             // 
@@ -99,7 +99,7 @@
             this.button2.Location = new System.Drawing.Point(287, 248);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(86, 36);
-            this.button2.TabIndex = 3;
+            this.button2.TabIndex = 4;
             this.button2.Text = "取消";
             this.button2.UseVisualStyleBackColor = true;
             // 
