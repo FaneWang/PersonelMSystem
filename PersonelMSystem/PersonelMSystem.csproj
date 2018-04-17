@@ -45,14 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,6 +84,21 @@
     <Folder Include="InfoAddForm\" />
     <Folder Include="ModuleClass\" />
     <Folder Include="PerForm\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\01.png" />
+    <Content Include="Image\02.PNG" />
+    <Content Include="Image\03.PNG" />
+    <Content Include="Image\04.PNG" />
+    <Content Include="Image\05.PNG" />
+    <Content Include="Image\06.PNG" />
+    <Content Include="Image\07.PNG" />
+    <Content Include="Image\08.PNG" />
+    <Content Include="Image\09.PNG" />
+    <Content Include="Image\PEOPLE.jpg" />
+    <Content Include="Image\主界面.bmp" />
+    <Content Include="Image\备份.bmp" />
+    <Content Include="Image\登录.BMP" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
