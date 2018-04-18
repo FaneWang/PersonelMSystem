@@ -86,6 +86,9 @@
     <Folder Include="PerForm\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\database.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Image\01.png" />
     <Content Include="Image\02.PNG" />
     <Content Include="Image\03.PNG" />
