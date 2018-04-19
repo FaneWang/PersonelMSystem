@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
   <databaseConn>
-    server=localhost;database=db_CM;integrated security=SSPIs
+    server=localhost;database=dm_CM;integrated security=SSPI
   </databaseConn>
 </config>
