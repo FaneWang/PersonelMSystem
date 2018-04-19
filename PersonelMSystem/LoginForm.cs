@@ -51,6 +51,11 @@ namespace PersonelMSystem
                 comm.Parameters.AddWithValue("@name", textBox1.Text.Trim());
                 comm.Parameters.AddWithValue("@password", textBox2.Text.Trim());
                 SqlDataReader reader = dataUtils.getDataReader(comm);
+                if(reader == null)
+                {
+                    MessageBox.Show("擦，程序初始化失败了，请联系管理员！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Application.Exit();
+                }
                 if (reader.Read())
                 {
                     DataClass.DatabaseUtils.loginId = reader.GetString(0);

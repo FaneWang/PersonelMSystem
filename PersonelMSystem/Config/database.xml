@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
+  <!--这里的server使用数据库服务器名称，localhost有时候没效，或者使用密码的方式-->
   <databaseConn>
-    server=localhost;database=dm_CM;integrated security=SSPI
+    server=FANE\SQLEXPRESS;database=dm_CM;integrated security=SSPI
   </databaseConn>
 </config>
