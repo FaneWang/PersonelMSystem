@@ -115,7 +115,6 @@ namespace PersonelMSystem.DataClass
                 string configPath = System.Windows.Forms.Application.StartupPath + "\\Config\\database.xml";
                 XElement xe = XElement.Load(configPath);
                 var node = xe.Descendants("databaseConn").Where(xn => xn.Value.Contains("server")).Select(xn => xn.Value);
-                MessageBox.Show(node.FirstOrDefault<string>());
                 return node.FirstOrDefault<string>();
             }
             catch (Exception e)
