@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelMSystem", "PersonelMSystem\PersonelMSystem.csproj", "{C7D98D79-26DD-4250-AC65-8C59BA87D594}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PMSetup", "PMSetup\PMSetup.vdproj", "{D340D1AC-8E20-42C2-90AD-282B699BFC61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{C7D98D79-26DD-4250-AC65-8C59BA87D594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D98D79-26DD-4250-AC65-8C59BA87D594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D98D79-26DD-4250-AC65-8C59BA87D594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D340D1AC-8E20-42C2-90AD-282B699BFC61}.Debug|Any CPU.ActiveCfg = Debug
+		{D340D1AC-8E20-42C2-90AD-282B699BFC61}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

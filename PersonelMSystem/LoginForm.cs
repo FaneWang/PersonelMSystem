@@ -62,8 +62,9 @@ namespace PersonelMSystem
                     DataClass.DatabaseUtils.loginName = textBox1.Text.Trim();
 
                     //DataClass.DatabaseUtils.loginFlag = (int)(this.Tag);
-                    this.Close();
-
+                    //this.Close();
+                    this.DialogResult = DialogResult.OK;
+                    this.Dispose();
                 }
                 else
                 {
@@ -98,8 +99,15 @@ namespace PersonelMSystem
             this.Close();
         }
 
+
         #endregion
 
-        
+        private void loginEnterPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == '\r')
+            {
+                loginButtonClick(sender, e);
+            }
+        }
     }
 }

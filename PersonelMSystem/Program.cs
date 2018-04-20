@@ -16,7 +16,13 @@ namespace PersonelMSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            LoginForm loginForm = new LoginForm();
+            loginForm.ShowDialog();
+            if (loginForm.DialogResult.Equals(DialogResult.OK))
+            {
+                Application.Run(new MainForm());
+            }
+            
         }
     }
 }
